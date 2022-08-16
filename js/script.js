@@ -119,9 +119,9 @@ function minusSlide() {
 nextSlide.addEventListener("click", plusSlide);
 prevSlide.addEventListener("click", minusSlide);
 
-window.addEventListener("load", () => {
+body.onload = function() {
     showSlides();
-})
+}
 
 function showSlides() {
     slideItem > 20 ? slideItem = 1 : slideItem;
