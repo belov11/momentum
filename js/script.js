@@ -14,7 +14,7 @@ function clock() {
     let mounth = date.getMonth();
     const weekDay = {
         1: "Monday",
-        2: "Tuesday",
+        2: "Tuesdays",
         3: "Wednesday",
         4: "Thursday",
         5: "Friday",
